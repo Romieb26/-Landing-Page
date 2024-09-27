@@ -1,0 +1,60 @@
+.Meme{
+  text-align: center;
+  font-size: 36px;
+  background-color:  #3eb4ed;
+  color:white;
+  height: 100px;
+  width: 100%;
+}
+img{
+  width: 100%;
+  height: 100%;
+}
+
+.title{
+  position: relative;
+  width: 200px;
+  height: 100px;
+  font-size: 36px;
+  left: 40%;
+}
+.headerimg{
+  width: 100px;
+  height: 100px;
+  position: relative;
+  bottom: 132px;
+}
+
+.header-icons img {
+  width: 100px;
+  height: 100px;
+}
+
+.memes-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+
+.memes-grid img {
+  width: 100%;
+  border-radius: 5px;
+}
+footer {
+  background-color: #0f87cd;
+  padding: 20px;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.social-icons a {
+  color: #eeff00;
+  margin: 0 10px;
+  text-decoration: none;
+}
+.social-icons img {
+  width: 20px; 
+  height: 20px; 
+  margin-right: 8px; 
+  vertical-align: middle; 
+}
